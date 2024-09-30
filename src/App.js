@@ -144,6 +144,7 @@ export default function App() {
                     }}
                   />
                   <button
+                    aria-label="Remove"
                     className={styles['button-remove']}
                     onClick={() => {
                       async function removeGuest() {
