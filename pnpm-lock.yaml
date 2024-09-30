@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@fontsource-variable/lora':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource/shrikhand':
+        specifier: ^5.1.0
+        version: 5.1.0
       '@upleveled/react-scripts':
         specifier: 5.0.13
         version: 5.0.13(@types/babel__core@7.20.5)(eslint@8.57.1)(react@18.3.1)(sass@1.79.3)(type-fest@0.21.3)(typescript@5.6.2)
@@ -966,6 +972,12 @@ packages:
   '@eslint/js@8.57.1':
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+
+  '@fontsource-variable/lora@5.1.0':
+    resolution: {integrity: sha512-dYb/q3hMuabXDy3yHTtjIn+nzYIJ+jguULrPelHPBfGFlvwTI0HAETP+tZm/0aRISD7q2nWTK3tQA8GFZRDTmg==}
+
+  '@fontsource/shrikhand@5.1.0':
+    resolution: {integrity: sha512-v0dFaHswCp+mNxwI7vEKnvZ4UBUNElMahicGsfLOoOSyELrdY93drSIU1rpNCMRFFIJz4u+5yzYkgQ3xhTuvVw==}
 
   '@humanwhocodes/config-array@0.13.0':
     resolution: {integrity: sha512-DZLEEqFWQFiyK6h5YIeynKx7JlvCYWL0cImfSRXZ9l4Sg2efkFGTuFf6vzXjK1cq6IYkU+Eg/JizXw+TD2vRNw==}
@@ -6893,6 +6905,10 @@ snapshots:
       - supports-color
 
   '@eslint/js@8.57.1': {}
+
+  '@fontsource-variable/lora@5.1.0': {}
+
+  '@fontsource/shrikhand@5.1.0': {}
 
   '@humanwhocodes/config-array@0.13.0':
     dependencies:

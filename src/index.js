@@ -1,4 +1,6 @@
-import './index.css';
+import './index.module.css';
+import '@fontsource/shrikhand';
+import '@fontsource-variable/lora';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
