@@ -21,10 +21,11 @@ export default function App() {
 
       const allGuests = await response.json();
       setGuestList([...allGuests]);
-      setLoading(false);
     }
 
-    fetchGuests().catch((error) => console.log(error));
+    fetchGuests()
+      .then(setLoading(false))
+      .catch((error) => console.log(error));
   }, []);
 
   async function handleSubmit(event) {
