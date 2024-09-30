@@ -12,7 +12,7 @@ export default function App() {
   // functions
 
   // fetch all guests on first render
-  const baseUrl = 'http://localhost:4000';
+  const baseUrl = 'https://x9st8t-4000.csb.app';
 
   useEffect(() => {
     async function fetchGuests() {
@@ -24,7 +24,9 @@ export default function App() {
       setLoading(false);
     }
 
-    fetchGuests().catch((error) => console.log(error));
+    fetchGuests()
+      .then()
+      .catch((error) => console.log(error));
   }, []);
 
   async function handleSubmit(event) {
